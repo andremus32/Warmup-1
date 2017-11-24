@@ -1,0 +1,9 @@
+//Warmup-1 > frontBack 
+public String frontBack(String str) {
+  if (str.length() > 1){
+  char[] fromString = str.toCharArray();
+  String nStr = str.substring(1,str.length()-1);
+  return fromString[fromString.length-1]+nStr+fromString[0];
+  }
+  else return str;
+}

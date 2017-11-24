@@ -1,0 +1,12 @@
+//Warmup-1 > mixStart 
+public boolean mixStart(String str) {
+  if (str.length() > 2){
+  char secondLetter = 'i';
+  char thirdLetter = 'x';
+  if ((str.charAt(1) == secondLetter) && (str.charAt(2) == thirdLetter)){
+    return true;
+  }
+  else return false;
+  }
+  else return false;
+}

@@ -1,0 +1,9 @@
+//Warmup-1 > endUp 
+public String endUp(String str) {
+  if (str.length() > 3){
+    String subStr = str.substring(str.length()-3);
+    String subStr2 = str.substring(0, str.length()-3);
+    return subStr2 + subStr.toUpperCase();
+  }
+  else return str.toUpperCase();
+}

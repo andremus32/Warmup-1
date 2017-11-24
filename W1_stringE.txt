@@ -1,0 +1,15 @@
+//Warmup-1 > stringE 
+public boolean stringE(String str) {
+  char checkE = 'e';
+  byte countE = 0;
+  char[] arrayFromStr = str.toCharArray();
+  for (int i = 0; i < arrayFromStr.length; i++) {
+    if (arrayFromStr[i] == checkE){
+      countE++;
+      }
+    }
+  if (countE > 0 && countE <=3){
+    return true;
+  }
+  else return false;
+}

@@ -1,0 +1,11 @@
+//Warmup-1 > front3 
+public String front3(String str) {
+  char[] arrStr = str.toCharArray();
+  if (arrStr.length < 3){
+    return str+str+str;
+  }
+  else {
+    String nStr = str.substring(0,3);
+    return nStr+nStr+nStr;
+  }
+}

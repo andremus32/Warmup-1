@@ -1,0 +1,12 @@
+//Warmup-1 > close10 
+public int close10(int a, int b) {
+  int x = Math.abs(10 - a);
+  int y = Math.abs(10 - b);
+  if (x != y){
+    if (x < y){
+      return a;
+    }
+    else return b;
+  }
+  else return 0;
+}

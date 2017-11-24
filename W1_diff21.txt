@@ -1,0 +1,10 @@
+//Warmup-1 > diff21 
+public int diff21(int n) {
+  int x = 21 - n;
+  if (x >= 0){
+    return x;
+  }
+  else {
+    return -x * 2;
+  }
+}

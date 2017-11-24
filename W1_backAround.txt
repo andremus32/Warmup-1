@@ -1,0 +1,5 @@
+//Warmup-1 > backAround 
+public String backAround(String str) {
+  String lastLetter = str.substring(str.length()-1);
+  return lastLetter + str + lastLetter;
+}

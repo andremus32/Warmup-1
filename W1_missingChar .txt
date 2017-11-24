@@ -1,0 +1,9 @@
+//Warmup-1 > missingChar 
+public String missingChar(String str, int n) {
+  if (n > 0){
+    String beginLine = str.substring(0, n);
+    String endLine = str.substring(n+1);
+    return beginLine + endLine;
+  }
+  else return str.substring(1);
+}

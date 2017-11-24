@@ -1,0 +1,11 @@
+//Warmup-1 > everyNth 
+public String everyNth(String str, int n) {
+  char[] arrayFromString = str.toCharArray();
+  String nStr = "";
+  for(int i = 0; i<arrayFromString.length; i++){
+    if (i%n == 0){
+      nStr += arrayFromString[i];
+    }
+  }
+  return nStr;
+}

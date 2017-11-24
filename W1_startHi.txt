@@ -1,0 +1,12 @@
+//Warmup-1 > startHi 
+public boolean startHi(String str) {
+  if (str.length() > 1){
+  char firstLetter = 'h';
+  char secondLetter = 'i';
+  if (firstLetter == str.charAt(0) && secondLetter == str.charAt(1)){
+    return true;
+  }
+  else return false;
+  }
+  else return false;
+}
